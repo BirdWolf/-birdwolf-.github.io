@@ -19,9 +19,7 @@ function handleQueryResponse(response) {
   var data = response.getDataTable();	
   var DataTable = new google.visualization.DataTable()
   DataTable.addColumn ('date', 'A');
-DataTable.addColumn('number', 'B');  
-DataTable.addrows ('p: 'myDataTable');
-
+DataTable.addColumn('number', 'B');
 var chart = new google.visualization.LineChart(document.getElementById('kimschart'));
 	var options = {
 	
