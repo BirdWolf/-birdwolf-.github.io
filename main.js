@@ -102,4 +102,3 @@ var chart = new google.visualization.LineChart(document.getElementById('kimschar
 	}
   chart.draw(data, options);
 }
-         google.charts.setOnLoadCallback(drawChart);
