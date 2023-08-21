@@ -1,10 +1,3 @@
-$( document ).ready(function() {
-   console.log( "document loaded" );
-});
-
-$( window ).on( "load", function() {
-   console.log( "window loaded" );
-});
 function drawChart() {
 			 
   var query = new google.visualization.Query('https:/docs.google.com/spreadsheets/d/1Ke4HUPtbSNoThHYr_pbqfCdviSAO7shJoLHZboxB_t4/gviz/tq?rangeA%3AB');
